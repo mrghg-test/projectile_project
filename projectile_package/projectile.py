@@ -3,7 +3,7 @@ from numpy import sign
 
 def calculate_acceleration_x(v, k=0.0, mass=1.0):
     '''
-    Calculate the acceleration based on combined forces from gravity and 
+    Calculate the acceleration based on combined forces of gravity and 
     air resistance.
     
     Args:
