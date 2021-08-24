@@ -36,7 +36,7 @@ def calculate_acceleration_y(v, k=0.0, mass=1.0, gravity=-9.81):
         k (float) : 
             Combined air resistance coefficient, based on F=-kv^2. 
             Should be positive.
-            Default = 0.0  i.e. no air resistance
+            Default = 0.  i.e. no air resistance
         mass (float) : 
             Mass of the falling object. Needed if k > 0.
             Default = 1.0
